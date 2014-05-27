@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C843E3121934742E00BE3D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C843E3111934742E00BE3D0A /* Foundation.framework */; };
+		C843E3141934742E00BE3D0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C843E3131934742E00BE3D0A /* CoreGraphics.framework */; };
+		C843E3161934742E00BE3D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C843E3151934742E00BE3D0A /* UIKit.framework */; };
+		C843E31C1934742F00BE3D0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C843E31A1934742F00BE3D0A /* InfoPlist.strings */; };
+		C843E31E1934742F00BE3D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E31D1934742F00BE3D0A /* main.m */; };
+		C843E3221934742F00BE3D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E3211934742F00BE3D0A /* AppDelegate.m */; };
+		C843E3251934742F00BE3D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C843E3231934742F00BE3D0A /* Main.storyboard */; };
+		C843E3281934742F00BE3D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E3271934742F00BE3D0A /* ViewController.m */; };
+		C843E32A1934742F00BE3D0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C843E3291934742F00BE3D0A /* Images.xcassets */; };
+		C843E3311934742F00BE3D0A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C843E3301934742F00BE3D0A /* XCTest.framework */; };
+		C843E3321934742F00BE3D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C843E3111934742E00BE3D0A /* Foundation.framework */; };
+		C843E3331934742F00BE3D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C843E3151934742E00BE3D0A /* UIKit.framework */; };
+		C843E33B1934742F00BE3D0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C843E3391934742F00BE3D0A /* InfoPlist.strings */; };
+		C843E33D1934742F00BE3D0A /* EmailRecipientFillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E33C1934742F00BE3D0A /* EmailRecipientFillTests.m */; };
+		C843E34B1934746400BE3D0A /* RecipientFillScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E3471934746400BE3D0A /* RecipientFillScrollView.m */; };
+		C843E34C1934746400BE3D0A /* PopOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E3491934746400BE3D0A /* PopOverViewController.m */; };
+		C843E34D1934746400BE3D0A /* PopOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C843E34A1934746400BE3D0A /* PopOverViewController.xib */; };
+		C843E352193475E800BE3D0A /* CustomSharePopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C843E34F193475E800BE3D0A /* CustomSharePopUp.xib */; };
+		C843E353193475E800BE3D0A /* CustomSharePopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E351193475E800BE3D0A /* CustomSharePopUp.m */; };
+		C843E3571934777E00BE3D0A /* email_top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E3551934777E00BE3D0A /* email_top_bar.png */; };
+		C843E3581934777E00BE3D0A /* email_top_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E3561934777E00BE3D0A /* email_top_bar@2x.png */; };
+		C843E35A193477E900BE3D0A /* normal_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E359193477E900BE3D0A /* normal_btn@2x.png */; };
+		C843E35D193477F600BE3D0A /* pressed_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E35B193477F600BE3D0A /* pressed_btn.png */; };
+		C843E35E193477F600BE3D0A /* pressed_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E35C193477F600BE3D0A /* pressed_btn@2x.png */; };
+		C843E3601934781D00BE3D0A /* normal_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E35F1934781D00BE3D0A /* normal_btn.png */; };
+		C843E3641934789500BE3D0A /* box_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E3621934789500BE3D0A /* box_bg.png */; };
+		C843E3651934789500BE3D0A /* box_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E3631934789500BE3D0A /* box_bg@2x.png */; };
+		C843E36819347A9A00BE3D0A /* UIPopoverController+overrides.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E36719347A9A00BE3D0A /* UIPopoverController+overrides.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C843E3341934742F00BE3D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C843E3061934742E00BE3D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C843E30D1934742E00BE3D0A;
+			remoteInfo = EmailRecipientFill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C843E30E1934742E00BE3D0A /* EmailRecipientFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailRecipientFill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C843E3111934742E00BE3D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C843E3131934742E00BE3D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C843E3151934742E00BE3D0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C843E3191934742F00BE3D0A /* EmailRecipientFill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailRecipientFill-Info.plist"; sourceTree = "<group>"; };
+		C843E31B1934742F00BE3D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C843E31D1934742F00BE3D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C843E31F1934742F00BE3D0A /* EmailRecipientFill-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmailRecipientFill-Prefix.pch"; sourceTree = "<group>"; };
+		C843E3201934742F00BE3D0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C843E3211934742F00BE3D0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C843E3241934742F00BE3D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C843E3261934742F00BE3D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C843E3271934742F00BE3D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C843E3291934742F00BE3D0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C843E32F1934742F00BE3D0A /* EmailRecipientFillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailRecipientFillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C843E3301934742F00BE3D0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C843E3381934742F00BE3D0A /* EmailRecipientFillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailRecipientFillTests-Info.plist"; sourceTree = "<group>"; };
+		C843E33A1934742F00BE3D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C843E33C1934742F00BE3D0A /* EmailRecipientFillTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailRecipientFillTests.m; sourceTree = "<group>"; };
+		C843E3461934746400BE3D0A /* RecipientFillScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipientFillScrollView.h; sourceTree = "<group>"; };
+		C843E3471934746400BE3D0A /* RecipientFillScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipientFillScrollView.m; sourceTree = "<group>"; };
+		C843E3481934746400BE3D0A /* PopOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverViewController.h; sourceTree = "<group>"; };
+		C843E3491934746400BE3D0A /* PopOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverViewController.m; sourceTree = "<group>"; };
+		C843E34A1934746400BE3D0A /* PopOverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverViewController.xib; sourceTree = "<group>"; };
+		C843E34F193475E800BE3D0A /* CustomSharePopUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSharePopUp.xib; sourceTree = "<group>"; };
+		C843E350193475E800BE3D0A /* CustomSharePopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSharePopUp.h; sourceTree = "<group>"; };
+		C843E351193475E800BE3D0A /* CustomSharePopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSharePopUp.m; sourceTree = "<group>"; };
+		C843E3551934777E00BE3D0A /* email_top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_top_bar.png; sourceTree = "<group>"; };
+		C843E3561934777E00BE3D0A /* email_top_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_top_bar@2x.png"; sourceTree = "<group>"; };
+		C843E359193477E900BE3D0A /* normal_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal_btn@2x.png"; sourceTree = "<group>"; };
+		C843E35B193477F600BE3D0A /* pressed_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pressed_btn.png; sourceTree = "<group>"; };
+		C843E35C193477F600BE3D0A /* pressed_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pressed_btn@2x.png"; sourceTree = "<group>"; };
+		C843E35F1934781D00BE3D0A /* normal_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal_btn.png; sourceTree = "<group>"; };
+		C843E3621934789500BE3D0A /* box_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_bg.png; sourceTree = "<group>"; };
+		C843E3631934789500BE3D0A /* box_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box_bg@2x.png"; sourceTree = "<group>"; };
+		C843E36619347A9A00BE3D0A /* UIPopoverController+overrides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+overrides.h"; sourceTree = "<group>"; };
+		C843E36719347A9A00BE3D0A /* UIPopoverController+overrides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+overrides.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C843E30B1934742E00BE3D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C843E3141934742E00BE3D0A /* CoreGraphics.framework in Frameworks */,
+				C843E3161934742E00BE3D0A /* UIKit.framework in Frameworks */,
+				C843E3121934742E00BE3D0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C843E32C1934742F00BE3D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C843E3311934742F00BE3D0A /* XCTest.framework in Frameworks */,
+				C843E3331934742F00BE3D0A /* UIKit.framework in Frameworks */,
+				C843E3321934742F00BE3D0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C843E3051934742E00BE3D0A = {
+			isa = PBXGroup;
+			children = (
+				C843E3171934742F00BE3D0A /* EmailRecipientFill */,
+				C843E3361934742F00BE3D0A /* EmailRecipientFillTests */,
+				C843E3101934742E00BE3D0A /* Frameworks */,
+				C843E30F1934742E00BE3D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C843E30F1934742E00BE3D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C843E30E1934742E00BE3D0A /* EmailRecipientFill.app */,
+				C843E32F1934742F00BE3D0A /* EmailRecipientFillTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C843E3101934742E00BE3D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C843E3111934742E00BE3D0A /* Foundation.framework */,
+				C843E3131934742E00BE3D0A /* CoreGraphics.framework */,
+				C843E3151934742E00BE3D0A /* UIKit.framework */,
+				C843E3301934742F00BE3D0A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C843E3171934742F00BE3D0A /* EmailRecipientFill */ = {
+			isa = PBXGroup;
+			children = (
+				C843E3201934742F00BE3D0A /* AppDelegate.h */,
+				C843E3211934742F00BE3D0A /* AppDelegate.m */,
+				C843E3231934742F00BE3D0A /* Main.storyboard */,
+				C843E3261934742F00BE3D0A /* ViewController.h */,
+				C843E3271934742F00BE3D0A /* ViewController.m */,
+				C843E3291934742F00BE3D0A /* Images.xcassets */,
+				C843E36919347A9F00BE3D0A /* Popover Category */,
+				C843E3611934782D00BE3D0A /* Images */,
+				C843E354193475EE00BE3D0A /* Custom Pop Up */,
+				C843E34E1934746C00BE3D0A /* Recipient Fill with Popover */,
+				C843E3181934742F00BE3D0A /* Supporting Files */,
+			);
+			path = EmailRecipientFill;
+			sourceTree = "<group>";
+		};
+		C843E3181934742F00BE3D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C843E3191934742F00BE3D0A /* EmailRecipientFill-Info.plist */,
+				C843E31A1934742F00BE3D0A /* InfoPlist.strings */,
+				C843E31D1934742F00BE3D0A /* main.m */,
+				C843E31F1934742F00BE3D0A /* EmailRecipientFill-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C843E3361934742F00BE3D0A /* EmailRecipientFillTests */ = {
+			isa = PBXGroup;
+			children = (
+				C843E33C1934742F00BE3D0A /* EmailRecipientFillTests.m */,
+				C843E3371934742F00BE3D0A /* Supporting Files */,
+			);
+			path = EmailRecipientFillTests;
+			sourceTree = "<group>";
+		};
+		C843E3371934742F00BE3D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C843E3381934742F00BE3D0A /* EmailRecipientFillTests-Info.plist */,
+				C843E3391934742F00BE3D0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C843E34E1934746C00BE3D0A /* Recipient Fill with Popover */ = {
+			isa = PBXGroup;
+			children = (
+				C843E3461934746400BE3D0A /* RecipientFillScrollView.h */,
+				C843E3471934746400BE3D0A /* RecipientFillScrollView.m */,
+				C843E3481934746400BE3D0A /* PopOverViewController.h */,
+				C843E3491934746400BE3D0A /* PopOverViewController.m */,
+				C843E34A1934746400BE3D0A /* PopOverViewController.xib */,
+			);
+			name = "Recipient Fill with Popover";
+			sourceTree = "<group>";
+		};
+		C843E354193475EE00BE3D0A /* Custom Pop Up */ = {
+			isa = PBXGroup;
+			children = (
+				C843E34F193475E800BE3D0A /* CustomSharePopUp.xib */,
+				C843E350193475E800BE3D0A /* CustomSharePopUp.h */,
+				C843E351193475E800BE3D0A /* CustomSharePopUp.m */,
+			);
+			name = "Custom Pop Up";
+			sourceTree = "<group>";
+		};
+		C843E3611934782D00BE3D0A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C843E3621934789500BE3D0A /* box_bg.png */,
+				C843E3631934789500BE3D0A /* box_bg@2x.png */,
+				C843E3551934777E00BE3D0A /* email_top_bar.png */,
+				C843E3561934777E00BE3D0A /* email_top_bar@2x.png */,
+				C843E35F1934781D00BE3D0A /* normal_btn.png */,
+				C843E359193477E900BE3D0A /* normal_btn@2x.png */,
+				C843E35B193477F600BE3D0A /* pressed_btn.png */,
+				C843E35C193477F600BE3D0A /* pressed_btn@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C843E36919347A9F00BE3D0A /* Popover Category */ = {
+			isa = PBXGroup;
+			children = (
+				C843E36619347A9A00BE3D0A /* UIPopoverController+overrides.h */,
+				C843E36719347A9A00BE3D0A /* UIPopoverController+overrides.m */,
+			);
+			name = "Popover Category";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C843E30D1934742E00BE3D0A /* EmailRecipientFill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C843E3401934742F00BE3D0A /* Build configuration list for PBXNativeTarget "EmailRecipientFill" */;
+			buildPhases = (
+				C843E30A1934742E00BE3D0A /* Sources */,
+				C843E30B1934742E00BE3D0A /* Frameworks */,
+				C843E30C1934742E00BE3D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailRecipientFill;
+			productName = EmailRecipientFill;
+			productReference = C843E30E1934742E00BE3D0A /* EmailRecipientFill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C843E32E1934742F00BE3D0A /* EmailRecipientFillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C843E3431934742F00BE3D0A /* Build configuration list for PBXNativeTarget "EmailRecipientFillTests" */;
+			buildPhases = (
+				C843E32B1934742F00BE3D0A /* Sources */,
+				C843E32C1934742F00BE3D0A /* Frameworks */,
+				C843E32D1934742F00BE3D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C843E3351934742F00BE3D0A /* PBXTargetDependency */,
+			);
+			name = EmailRecipientFillTests;
+			productName = EmailRecipientFillTests;
+			productReference = C843E32F1934742F00BE3D0A /* EmailRecipientFillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C843E3061934742E00BE3D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Cabot;
+				TargetAttributes = {
+					C843E32E1934742F00BE3D0A = {
+						TestTargetID = C843E30D1934742E00BE3D0A;
+					};
+				};
+			};
+			buildConfigurationList = C843E3091934742E00BE3D0A /* Build configuration list for PBXProject "EmailRecipientFill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C843E3051934742E00BE3D0A;
+			productRefGroup = C843E30F1934742E00BE3D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C843E30D1934742E00BE3D0A /* EmailRecipientFill */,
+				C843E32E1934742F00BE3D0A /* EmailRecipientFillTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C843E30C1934742E00BE3D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C843E34D1934746400BE3D0A /* PopOverViewController.xib in Resources */,
+				C843E3651934789500BE3D0A /* box_bg@2x.png in Resources */,
+				C843E32A1934742F00BE3D0A /* Images.xcassets in Resources */,
+				C843E35A193477E900BE3D0A /* normal_btn@2x.png in Resources */,
+				C843E31C1934742F00BE3D0A /* InfoPlist.strings in Resources */,
+				C843E35D193477F600BE3D0A /* pressed_btn.png in Resources */,
+				C843E3571934777E00BE3D0A /* email_top_bar.png in Resources */,
+				C843E3641934789500BE3D0A /* box_bg.png in Resources */,
+				C843E3601934781D00BE3D0A /* normal_btn.png in Resources */,
+				C843E3581934777E00BE3D0A /* email_top_bar@2x.png in Resources */,
+				C843E352193475E800BE3D0A /* CustomSharePopUp.xib in Resources */,
+				C843E35E193477F600BE3D0A /* pressed_btn@2x.png in Resources */,
+				C843E3251934742F00BE3D0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C843E32D1934742F00BE3D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C843E33B1934742F00BE3D0A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C843E30A1934742E00BE3D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C843E34B1934746400BE3D0A /* RecipientFillScrollView.m in Sources */,
+				C843E353193475E800BE3D0A /* CustomSharePopUp.m in Sources */,
+				C843E3281934742F00BE3D0A /* ViewController.m in Sources */,
+				C843E36819347A9A00BE3D0A /* UIPopoverController+overrides.m in Sources */,
+				C843E34C1934746400BE3D0A /* PopOverViewController.m in Sources */,
+				C843E3221934742F00BE3D0A /* AppDelegate.m in Sources */,
+				C843E31E1934742F00BE3D0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C843E32B1934742F00BE3D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C843E33D1934742F00BE3D0A /* EmailRecipientFillTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C843E3351934742F00BE3D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C843E30D1934742E00BE3D0A /* EmailRecipientFill */;
+			targetProxy = C843E3341934742F00BE3D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C843E31A1934742F00BE3D0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C843E31B1934742F00BE3D0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C843E3231934742F00BE3D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C843E3241934742F00BE3D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C843E3391934742F00BE3D0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C843E33A1934742F00BE3D0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C843E33E1934742F00BE3D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C843E33F1934742F00BE3D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C843E3411934742F00BE3D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailRecipientFill/EmailRecipientFill-Prefix.pch";
+				INFOPLIST_FILE = "EmailRecipientFill/EmailRecipientFill-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C843E3421934742F00BE3D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailRecipientFill/EmailRecipientFill-Prefix.pch";
+				INFOPLIST_FILE = "EmailRecipientFill/EmailRecipientFill-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C843E3441934742F00BE3D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailRecipientFill.app/EmailRecipientFill";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailRecipientFill/EmailRecipientFill-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmailRecipientFillTests/EmailRecipientFillTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C843E3451934742F00BE3D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailRecipientFill.app/EmailRecipientFill";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailRecipientFill/EmailRecipientFill-Prefix.pch";
+				INFOPLIST_FILE = "EmailRecipientFillTests/EmailRecipientFillTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C843E3091934742E00BE3D0A /* Build configuration list for PBXProject "EmailRecipientFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C843E33E1934742F00BE3D0A /* Debug */,
+				C843E33F1934742F00BE3D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C843E3401934742F00BE3D0A /* Build configuration list for PBXNativeTarget "EmailRecipientFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C843E3411934742F00BE3D0A /* Debug */,
+				C843E3421934742F00BE3D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C843E3431934742F00BE3D0A /* Build configuration list for PBXNativeTarget "EmailRecipientFillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C843E3441934742F00BE3D0A /* Debug */,
+				C843E3451934742F00BE3D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C843E3061934742E00BE3D0A /* Project object */;
+}
