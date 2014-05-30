@@ -3,7 +3,6 @@
 //  EmailRecipientFillTests
 //
 //  Created by feialoh on 27/05/14.
-//  Copyright (c) 2014 Cabot. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

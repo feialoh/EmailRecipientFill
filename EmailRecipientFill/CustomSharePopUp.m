@@ -1,9 +1,7 @@
 //
 //  CustomSharePopUp.m
-//  MightYouLike
 //
 //  Created by feialoh on 28/04/14.
-//  Copyright (c) 2014 Cabot. All rights reserved.
 //
 
 #import "CustomSharePopUp.h"
