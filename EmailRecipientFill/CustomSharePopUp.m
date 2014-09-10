@@ -50,13 +50,9 @@
         if ([accType isEqualToString:@"Email"])
         {
             _shareModel.text=@"Email Share";
-            [_userNameBgView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"email_top_bar.png"]]];
-            
-            [_shareButton setImage:[UIImage imageNamed:@"email_top_bar.png"] forState:UIControlStateNormal];
+
             [_shareButton setBackgroundImage:[UIImage imageNamed:@"normal_btn.png"] forState:UIControlStateNormal];
             [_shareButton setBackgroundImage:[UIImage imageNamed:@"pressed_btn.png"] forState:UIControlStateHighlighted];
-            
-            [_cancelButton setImage:[UIImage imageNamed:@"email_top_bar.png"] forState:UIControlStateNormal];
             [_cancelButton setBackgroundImage:[UIImage imageNamed:@"normal_btn.png"] forState:UIControlStateNormal];
             [_cancelButton setBackgroundImage:[UIImage imageNamed:@"pressed_btn.png"] forState:UIControlStateHighlighted];
             
@@ -162,7 +158,7 @@ shouldChangeTextInRange: (NSRange) range
     if ([text isEqualToString:@"\n"])
     {
         [textView resignFirstResponder];
-        _socialSharePopView.frame=CGRectMake(popX, popY-50, _socialSharePopView.frame.size.width, _socialSharePopView.frame.size.height);
+        _socialSharePopView.frame=CGRectMake(popX, popY, _socialSharePopView.frame.size.width, _socialSharePopView.frame.size.height);
         return NO;
     }
     return YES;

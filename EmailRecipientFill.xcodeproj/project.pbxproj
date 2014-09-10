@@ -26,8 +26,6 @@
 		C843E34D1934746400BE3D0A /* PopOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C843E34A1934746400BE3D0A /* PopOverViewController.xib */; };
 		C843E352193475E800BE3D0A /* CustomSharePopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C843E34F193475E800BE3D0A /* CustomSharePopUp.xib */; };
 		C843E353193475E800BE3D0A /* CustomSharePopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = C843E351193475E800BE3D0A /* CustomSharePopUp.m */; };
-		C843E3571934777E00BE3D0A /* email_top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E3551934777E00BE3D0A /* email_top_bar.png */; };
-		C843E3581934777E00BE3D0A /* email_top_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E3561934777E00BE3D0A /* email_top_bar@2x.png */; };
 		C843E35A193477E900BE3D0A /* normal_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E359193477E900BE3D0A /* normal_btn@2x.png */; };
 		C843E35D193477F600BE3D0A /* pressed_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E35B193477F600BE3D0A /* pressed_btn.png */; };
 		C843E35E193477F600BE3D0A /* pressed_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C843E35C193477F600BE3D0A /* pressed_btn@2x.png */; };
@@ -75,8 +73,6 @@
 		C843E34F193475E800BE3D0A /* CustomSharePopUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSharePopUp.xib; sourceTree = "<group>"; };
 		C843E350193475E800BE3D0A /* CustomSharePopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSharePopUp.h; sourceTree = "<group>"; };
 		C843E351193475E800BE3D0A /* CustomSharePopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSharePopUp.m; sourceTree = "<group>"; };
-		C843E3551934777E00BE3D0A /* email_top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_top_bar.png; sourceTree = "<group>"; };
-		C843E3561934777E00BE3D0A /* email_top_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_top_bar@2x.png"; sourceTree = "<group>"; };
 		C843E359193477E900BE3D0A /* normal_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal_btn@2x.png"; sourceTree = "<group>"; };
 		C843E35B193477F600BE3D0A /* pressed_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pressed_btn.png; sourceTree = "<group>"; };
 		C843E35C193477F600BE3D0A /* pressed_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pressed_btn@2x.png"; sourceTree = "<group>"; };
@@ -215,8 +211,6 @@
 			children = (
 				C843E3621934789500BE3D0A /* box_bg.png */,
 				C843E3631934789500BE3D0A /* box_bg@2x.png */,
-				C843E3551934777E00BE3D0A /* email_top_bar.png */,
-				C843E3561934777E00BE3D0A /* email_top_bar@2x.png */,
 				C843E35F1934781D00BE3D0A /* normal_btn.png */,
 				C843E359193477E900BE3D0A /* normal_btn@2x.png */,
 				C843E35B193477F600BE3D0A /* pressed_btn.png */,
@@ -316,10 +310,8 @@
 				C843E35A193477E900BE3D0A /* normal_btn@2x.png in Resources */,
 				C843E31C1934742F00BE3D0A /* InfoPlist.strings in Resources */,
 				C843E35D193477F600BE3D0A /* pressed_btn.png in Resources */,
-				C843E3571934777E00BE3D0A /* email_top_bar.png in Resources */,
 				C843E3641934789500BE3D0A /* box_bg.png in Resources */,
 				C843E3601934781D00BE3D0A /* normal_btn.png in Resources */,
-				C843E3581934777E00BE3D0A /* email_top_bar@2x.png in Resources */,
 				C843E352193475E800BE3D0A /* CustomSharePopUp.xib in Resources */,
 				C843E35E193477F600BE3D0A /* pressed_btn@2x.png in Resources */,
 				C843E3251934742F00BE3D0A /* Main.storyboard in Resources */,
@@ -475,6 +467,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EmailRecipientFill/EmailRecipientFill-Prefix.pch";
 				INFOPLIST_FILE = "EmailRecipientFill/EmailRecipientFill-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -488,6 +481,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EmailRecipientFill/EmailRecipientFill-Prefix.pch";
 				INFOPLIST_FILE = "EmailRecipientFill/EmailRecipientFill-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -552,6 +546,7 @@
 				C843E3421934742F00BE3D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C843E3431934742F00BE3D0A /* Build configuration list for PBXNativeTarget "EmailRecipientFillTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +555,7 @@
 				C843E3451934742F00BE3D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

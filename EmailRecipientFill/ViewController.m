@@ -33,7 +33,7 @@
 
 - (IBAction)showPop:(UIButton *)sender
 {
-    NSArray *fList = [[NSArray alloc] initWithObjects:@"test@gmail.com", @"test2@gmail.com",@"test3@gmail.com", @"test4@gmail.com", nil];
+    NSArray *fList = [[NSArray alloc] initWithObjects:@"test@gmail.com", @"abc@aol.com",@"test3@gmail.com", @"test4@gmail.com", nil];
     customPop= [[CustomSharePopUp alloc] initWithdelegate:self AccountType:@"Email" withFriendList:fList];
     [customPop show];
 }
