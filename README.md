@@ -5,7 +5,7 @@ This is a custom email pop-up which takes in array of emails and shows
 the email similar to gmail emails format with delete button and also has
 a textview that takes in the email content. It also shows a popover similar to ipad popover when double tapped on email. 
 
-The pop-up is fully customizable. Works on iOS 6.0+ 
+The pop-up is fully customizable. Works on iOS 6.0+ , currently done for iPhone only but same code can be reused for iPad as well. 
 
 ## HOW TO USE
 ##
