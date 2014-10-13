@@ -21,7 +21,8 @@ eg:
 - (IBAction)showPop:(UIButton *)sender { NSArray *fList = [[NSArray alloc] initWithObjects:@"test@gmail.com",
 @"test2@gmail.com",@"test3@gmail.com", @"test4@gmail.com", nil]; CustomSharePopUp *customPop= [[CustomSharePopUp alloc]
 initWithdelegate:self AccountType:@"Email" withFriendList:fList]; [customPop show];
-} ```
+}
+```
 
 To customize the Pop-up edit the files and Xibs in Custom Pop Up folder
 
