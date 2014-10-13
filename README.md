@@ -27,4 +27,4 @@ eg:
 
 To customize the Pop-up edit the files and Xibs in Custom Pop Up folder
 
-![alt tag](https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot2.png)    ![alt tag](https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot1.png)
+![Alt](https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot2.png)    ![Alt](https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot1.png)
