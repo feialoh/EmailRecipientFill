@@ -18,9 +18,11 @@ UIViewController<CustomSharePopUpDelegate> 3. Initialize `CustomSharePopUp` obje
 eg:
 
 ```obj-c 
-- (IBAction)showPop:(UIButton *)sender { NSArray *fList = [[NSArray alloc] initWithObjects:@"test@gmail.com",
-@"test2@gmail.com",@"test3@gmail.com", @"test4@gmail.com", nil]; CustomSharePopUp *customPop= [[CustomSharePopUp alloc]
-initWithdelegate:self AccountType:@"Email" withFriendList:fList]; [customPop show];
+- (IBAction)showPop:(UIButton *)sender 
+{
+ NSArray *fList = [[NSArray alloc] initWithObjects:@"test@gmail.com",@"test2@gmail.com",@"test3@gmail.com", @"test4@gmail.com", nil]; 
+ CustomSharePopUp *customPop= [[CustomSharePopUp alloc]initWithdelegate:self AccountType:@"Email" withFriendList:fList]; 
+ [customPop show];
 }
 ```
 
