@@ -27,9 +27,7 @@ eg:
 
 To customize the Pop-up edit the files and Xibs in Custom Pop Up folder
 
-[![Alt][screenshot1_thumb]][screenshot1]    [![Alt][screenshot2_thumb]][screenshot2]
+[![Alt][screenshot1]]    [![Alt][screenshot2]]
 
-[screenshot1_thumb]: https://github.com/feialoh/EmailRecipientFill/blob/master/ Screenshot2.png [screenshot1]:
-https://github.com/feialoh/EmailRecipientFill/blob/master/ Screenshot2.png [screenshot2_thumb]:
-https://github.com/feialoh/EmailRecipientFill/blob/master/ Screenshot1.png [screenshot2]:
-https://github.com/feialoh/EmailRecipientFill/blob/master/ Screenshot1.png
+[screenshot1]:https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot2.png 
+[screenshot2]:https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot1.png
