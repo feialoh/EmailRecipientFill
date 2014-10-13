@@ -27,7 +27,7 @@ initWithdelegate:self AccountType:@"Email" withFriendList:fList]; [customPop sho
 To customize the Pop-up edit the files and Xibs in Custom Pop Up folder
 
 
-![Alt][screenshot1]   |  ![Alt][screenshot2]
+![Alt][screenshot1]		![Alt][screenshot2]
 
 [screenshot1]:https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot2.png
 [screenshot2]:https://github.com/feialoh/EmailRecipientFill/blob/master/Screenshot1.png
